@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-#a Bash script that displays Best School 10 times.
+#A Bash script that displays Best School 10 times.
 # using for statement
 
 for ((count=0; count < 10; count++))
