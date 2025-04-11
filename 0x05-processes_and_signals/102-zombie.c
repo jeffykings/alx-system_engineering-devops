@@ -19,14 +19,12 @@ int main(void)
 	{
 		pid = fork();
 		if (pid >  0)
-			printf("Zombie process created, PID: %d\n", pid);
-		else if (pid == 0)
-			exit(0);
-		else
 		{
-			perror("fork failed");
-			exit(1);
+			printf("Zombie process created, PID: %d\n", pid);
+			sleep(1);
 		}
+		else
+			exit(0);
 	}
 
 	value = infinite_while();
