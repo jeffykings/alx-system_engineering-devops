@@ -12,7 +12,6 @@ int infinite_while(void);
 int main(void)
 {
 	pid_t pid;
-	int value;
 	int i;
 
 	for (i = 0; i < 5; i++)
@@ -27,7 +26,7 @@ int main(void)
 			exit(0);
 	}
 
-	value = infinite_while();
+	infinite_while();
 	return (0);
 }
 
