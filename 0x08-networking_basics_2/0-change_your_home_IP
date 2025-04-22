@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # A Bash script to configure custom hostname resolution on Ubuntu.
 
-# Exit if there is any error
-set -e
 
 # Backup the original /etc/hosts file
 cp /etc/hosts /etc/hosts.bak
